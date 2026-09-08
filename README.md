@@ -1,22 +1,17 @@
-# Jairo Top Chef
+# Pollos Hermanos
 
-Aplicación web móvil para gestionar recetas profesionales.
+Aplicación web responsive, optimizada para móvil, para recetas y organización diaria de cocina.
 
 ## Funciones
-- Registro e inicio de sesión con aprobación de usuarios.
+- Inicio de sesión y aprobación de usuarios.
 - Roles: administrador, colaborador y usuario.
-- Recetas con código, categoría, raciones, tiempos, ingredientes, preparación y notas.
-- Catálogo predictivo de ingredientes y sinónimos.
-- Fotografías múltiples por receta.
-- Buscador y filtros.
-- Vista en cuadrícula o lista.
-- Menú del día y estados de producción.
-- Propuestas de cambio de colaboradores sujetas a aprobación.
-- Historial de modificaciones.
-- Archivo lógico de recetas.
+- Recetas con código, categoría, raciones enteras, tiempos, ingredientes predictivos, preparación, observaciones y varias fotografías.
+- Búsqueda por receta, código e ingredientes.
+- Vista de tarjetas o lista.
+- Comanda del día con raciones, sección de cocina, responsable y estado.
+- Filtro "Mis tareas" para cada usuario.
+- Administración separada para aprobar usuarios y propuestas de corrección.
+- Archivo lógico e historial de cambios.
+- PWA y diseño responsive con modo Web/Móvil en escritorio.
 
-## Backend
-Supabase con RLS y almacenamiento privado para fotografías.
-
-## Publicación
-Frontend estático/PWA. Puede publicarse con GitHub Pages u otro hosting estático gratuito.
+Backend: Supabase. Publicación: GitHub Pages.
